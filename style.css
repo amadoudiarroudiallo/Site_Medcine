@@ -1,0 +1,618 @@
+header{
+    background-color: #fff;
+    height: 97vh;
+    
+}
+header .logo{
+    margin: 2% 5%;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+header .container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header .container .left{
+    text-transform: capitalize;  
+}
+header .container img{
+    width: 120vh;
+}
+header .container .left h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: purple;
+}
+
+header p {
+    color: black;
+    font-size: 18px;
+}
+
+
+header button{
+    width: 15vh;
+    height: 5vh;
+    border: none;
+    border: 2PX SOLID purple;
+    border-radius: 5PX;
+    background-color: purple;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+header button:hover{
+    overflow: hidden;
+    transform: scale(1.1);
+    background-color: #262626;
+    border: 2px SOLID #262626;
+    box-shadow: 0 6px 5PX purple;
+}
+
+/* le premier sections */
+
+.sec1{
+    height: 80vh;
+    border: 1px solid transparent;
+}
+
+.sec1 .container{
+    display: flex;
+    margin-left: 30px;
+    gap: 10%;
+    flex-wrap: wrap;
+   
+}
+
+.sec1 .container .texte{
+    padding-left: 7%;
+    margin-top: 2%;
+    font-size: 18px;
+}
+
+.sec1 img{
+    width: 15%;
+}
+.sec1 .texte h6{
+    color: rgb(150, 1, 150);
+    font-size: 15px;
+}
+
+.sec1 .container .texte h1{
+    font-weight: bolder;
+    color: purple;
+}
+
+.sec1 .texte h6{
+    color: rgb(150, 1, 150);
+    font-size: 15px;
+}
+
+.sec1 .image{
+    display: flex;
+    justify-content: space-around;
+    gap: 30PX;
+    margin-left: 7%;
+
+}
+
+.sec1 .container .partie1 {
+    border: 1PX SOLID transparent;
+    box-shadow: 0px 2px 7px #262626 ;
+    height: 25vh;
+    width: 35vh;
+    gap: 20PX;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.sec1 .container .partie2{
+    border: 1PX SOLID transparent;
+    box-shadow: 0px 2px 7px #262626;
+    height: 25vh;
+    width: 35vh;
+    gap: 20PX;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.sec1 .reference{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-left: 9.2%;
+    gap: 5%;
+}
+
+.sec1 .reference .partie3 {
+    width: 35vh;
+    border: 1PX SOLID transparent;
+    box-shadow: 0px 3px 7px #262626;
+    height: 25vh;
+    border-radius: 10px;
+    margin-top: 5%;
+    gap: 20PX;
+}
+
+/* DEUXIEMES SECTIONS */
+
+.sec2{
+    height:  95vh;
+    border: 2px double transparent;
+    background-color: transparent;
+}
+
+.sec2 .sec-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 6%;
+}
+
+.sec2 img{
+    width: 15%;
+}
+.sec2 .left .container, .container2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
+    margin-left: 10px;
+    margin-top: 5%;
+}
+
+.sec2 .left span, h1{
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.sec2 h1, h4{
+    color: purple;
+}
+
+
+.sec2 .right{
+    display: flex;
+    justify-content: space-around;
+    gap: 50PX;
+}
+
+.sec2 .right h3{
+    color: black;
+    text-transform: capitalize;
+}
+
+.sec2 .partie1{
+    border:  1px solid transparent;
+    width: 40vh;
+    height: 30vh;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10PX #262626;
+}
+
+.sec2 .partie2{
+    border:  1px solid transparent;
+    width: 40vh;
+    height: 30vh;
+    margin-top:30px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10PX #262626;
+}
+
+.sec2 .partie3{
+    border:  1px solid transparent;
+    width: 40vh;
+    height: 30vh;
+    margin-top: 40%;
+    margin-left: 10%;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10PX #262626;
+}
+
+
+/* TROISIEMES SECTIONS */
+.sec3{
+    height: 80vh;
+    border: 2PX SOLID transparent;
+    background-color: #fff;
+
+}
+
+.sec3 .sec-3{
+    margin-top: 5%;
+}
+
+.sec3 .sec-3 h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.sec3 .sec-3 p{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec3 .sec3-image{
+   display: flex;
+   justify-content: space-around;
+   gap: 20PX;
+   margin-top: 4%;
+   margin-left: 10%;
+}
+
+
+.sec3 img{
+    width: 80%;
+    height: 50%;
+   
+}
+.sec3 .sec3-image h3{
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.sec3 .sec3-image span{
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+/* QUATRIEMES SECTIONS */
+.sec4{
+    height: 70vh;
+
+}
+
+
+.texte-left h2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.texte-left p{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 17PX;
+}
+
+.sec4 .sec-4{
+    display: flex;
+    padding-left: 15%;
+    gap: 6%;
+    margin-top: 7%;
+}
+
+.sec4 .sec-4 .texte{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 1px 5px 5px #262626;
+}
+
+.sec4 .sec-4 .texte img{
+    border: 1px SOLID transparent;
+    margin: 10px 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.sec4 .sec-4 .texte .imge{
+    display: flex;
+    
+}
+
+.sec4 .sec-4 .texte span{
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.sec4 .sec-4 p{
+    font-size: 16px;
+    margin-top: -2px;
+    margin-left: 5px;
+}
+
+
+/* cinquiemes sections */
+.sec5{
+    height: 100vh;
+    border: 2px SOLID transparent;
+    background-color: beige;
+}
+
+.sec5 .texte-sec5, h2{
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+    margin-top: 5%;
+    text-transform: capitalize;
+}
+.sec5 .border-sec5 img{
+    width: 40px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.sec5 .border-sec5 .border{
+    display: flex;
+    justify-content: space-between;  
+    margin: 5% 10%;
+}
+
+.sec5 .border-sec5 .border{
+    border: 1px SOLID #262626;
+    margin-top: 20px;
+    border-radius: 5PX;
+    background-color: #fff;
+}
+
+.sec5 .border-sec5 .border P{
+    font-size: 20px;
+}
+
+
+/* sixiemes sections */
+footer{
+    height: 65vh;
+}
+
+footer .contient-sec6{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 4%;
+    gap: 50px;
+}
+
+footer .formilaire .texte-sec6, h1{
+    color: purple;
+    
+}
+
+footer .texte-sec6{
+    margin-left: 1%;
+}
+
+footer img{
+    margin-left: 1%;
+}
+
+.contient-sec6 .formilaire{
+    border: 1px solid transparent;
+    width: 30%;
+    height: 50vh;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 5PX 5PX #262626;
+    margin-top: 2%;
+    
+}
+
+.contient-sec6 .formilaire .control{
+    width: 35vh;
+    height: 4vh;
+    background-color: rgb(214, 216, 216);
+}
+
+.contient-sec6 .formilaire .forme{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: capitalize;
+    margin-top: 10%;
+}
+
+.contient-sec6 .formilaire button{
+    border: none;
+    background-color: purple;
+    width: 90%;
+    height: 5vh;
+    cursor: pointer;
+    margin-left: 5px;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: 3px 3px 7px #262626;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+
+@media screen and (max-width: 728px){
+    .container{
+        width: 50vh;
+        display: block;
+        max-width: 100%;
+        margin-bottom: 20px ;
+    }
+
+    header .container .left h1{
+        display: flex;
+        font-size: 40px;
+        font-weight: bold;
+        color: blue;
+    }
+
+    header .right img{
+        max-width: 70vh;
+        margin-top: 10%;
+    }
+
+    header button{
+        background-color: blue;
+        border: none; 
+    }
+    header button:hover{
+        background-color: green;
+        box-shadow: 2px 5px 10px #262626;
+    }
+
+
+    .sec1 .container{
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin-top: 40%;
+    }
+
+    .sec1 .reference{
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    .sec1 .partie1, .partie2{
+        border:  1px solid transparent;
+        background-color: blue;
+        text-align: center;
+        color: #fff;
+    }
+
+    .sec1 .partie3{
+        border:  1px solid transparent;
+        width: 25vh;
+        height: 25vh;
+        gap: 20PX;
+        background-color: blue;
+        text-align: center;
+        color: #fff;
+    }
+
+    .sec2{
+        margin-top: 130vh;
+    }
+
+    .sec2 .sec-2 .left{
+        margin-top: 10%;
+    }
+    .sec2 .sec-2 .right{
+        margin-top: 10%;
+        gap: 0;
+    }
+
+    .sec2 .partie3{
+        border:  1px solid transparent;
+        width: 30vh;
+        height: 25vh;
+        background-color: blue;
+        text-align: center;
+        color: #fff;
+        
+    }
+
+    .sec2 .partie3 h3{
+        color: pink;
+        font-weight: bolder;
+
+    }
+
+    .sec2 .partie1{
+        border:  1px solid transparent;
+        width: 30vh;
+        height: 25vh;
+        background-color: blue;
+        text-align: center;
+        color: #fff;  
+    }
+
+    .sec2 .partie1 h3{
+        color: pink;
+        font-weight: bolder;
+
+    }
+    .sec2 .partie2{
+        border:  1px solid transparent;
+        width: 30vh;
+        height: 25vh;
+        gap: 20PX;
+        background-color: blue;
+        text-align: center;
+        color: #fff;
+        /* margin-top: 40%; */ 
+    }
+
+    .sec2 .partie2 h3{
+        color: pink;
+        font-weight: bolder;
+
+    }
+
+    .sec3{
+        margin-top: 40vh;
+    }
+
+    .sec-3{
+        display: inline-block;
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .sec-3 h1{
+        color: blue;
+    }
+
+    .sec-3 img{
+        width: 20vh;
+        background-position: center;
+        gap: 0;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px #262626;
+        flex-wrap: wrap;
+    }
+
+    .sec3 .sec3-image{
+        max-width: 90vh;
+        flex-wrap: wrap;
+    }
+
+    .sec4{
+        margin-top: 90vh;
+    }
+
+
+
+    footer{
+        margin-top: 20vh;
+    }
+
+    footer .contient-sec6{
+        display: block;
+        max-width: 100%;
+    }
+
+    footer .contient-sec6 .formilaire{
+        width: 70%;
+        margin-left: 50px;
+        margin-top: -30px;
+    }
+
+    .contient-sec6 .formilaire button{
+        background-color: blue;
+        width: 50%;
+    }
+
+    .contient-sec6 .formilaire button:hover{
+        background-color: pink;
+        color: #000000;
+        font-weight: bolder;
+    }
+
+
+    footer img{
+        width: 50%;
+        margin-left: 20%;
+    }
+
+
+
+
+}   
